@@ -1,0 +1,8 @@
+*.log
+*.payload
+broker
+carrier
+__pycache__/
+patches/
+cache_exports.txt
+skylight_text.txt

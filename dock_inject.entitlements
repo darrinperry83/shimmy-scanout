@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Required so the *caller* may task_for_pid() a hardened system process
+	     like the Dock.  (com.apple.security.get-task-allow is the DEBUGGEE side
+	     and does NOT help the injector; see the task_for_pid matrix in the report.) -->
+	<key>com.apple.security.cs.debugger</key>
+	<true/>
+</dict>
+</plist>

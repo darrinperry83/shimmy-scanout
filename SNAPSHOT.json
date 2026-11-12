@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "state": "source-only-unbuilt",
+  "files": [
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-relay-next/relay.c",
+      "destination": "integration/rdmetal/relay/relay.c",
+      "bytes": 73989,
+      "sha256": "07e9f13bf539eb31003a37d06edb072aeab89668996d6c44a0f55b814001ec99",
+      "source_sha256": "9e4d6ec86a9a791ca57c95e957f7e258f9143dfeb7b05038bc98a588375bc052",
+      "normalization": "Removed trailing spaces from two otherwise blank lines.",
+      "source_bytes": 74017
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-relay-next/rddmabuf_wire.h",
+      "destination": "integration/rdmetal/relay/rddmabuf_wire.h",
+      "bytes": 863,
+      "sha256": "46cb0a6fb55d3d5899283377dec22fe786d900c6210b88baac7065708e72bedf"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-relay-next/rdowned_wire.h",
+      "destination": "integration/rdmetal/relay/rdowned_wire.h",
+      "bytes": 746,
+      "sha256": "2b649d365414f5f368316154caf33237cc20fab646926d27d327e0f3a8dd795a"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-relay-next/rddmabuf_witness.c",
+      "destination": "integration/rdmetal/relay/rddmabuf_witness.c",
+      "bytes": 5131,
+      "sha256": "9739be7388c1f417ab745cb4f02f12481d741445f58009eb26146c8aeac77e41"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-relay-next/rddmabuf_witness.h",
+      "destination": "integration/rdmetal/relay/rddmabuf_witness.h",
+      "bytes": 1427,
+      "sha256": "cd9944e82888c93b2ed4792f051809177921012b47e3a15483c7e683a975885b"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/compiler-worker-next/dmabuf-fd-next/carrier.c",
+      "destination": "integration/rdmetal/carrier/carrier.c",
+      "bytes": 6183,
+      "sha256": "3532e2d5f513d636a849c2a07e313cab66a88666e022e40a3bdc3f4a73f0e783"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/compiler-worker-next/dmabuf-fd-next/carrier.h",
+      "destination": "integration/rdmetal/carrier/carrier.h",
+      "bytes": 2905,
+      "sha256": "5e76fd8948c37c401cd33d7035fa16350052283915aef695e98a1ecbcf8c047f"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-import-next/rd_virtual_dmabuf_ref.h",
+      "destination": "integration/rdmetal/transport/rd_virtual_dmabuf_ref.h",
+      "bytes": 1046,
+      "sha256": "d2c00528d4debc834a3b5c8f87e99b46427f34d6a3f26ef5ef6d1ca2005d85a9"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-import-next/rd_virtual_dmabuf_import_transport.cpp",
+      "destination": "integration/rdmetal/transport/rd_virtual_dmabuf_import_transport.cpp",
+      "bytes": 860,
+      "sha256": "9c6ba204822b181a738332c1806f1abb84b89881d96001c5cba3e7bec38aafca"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-import-next/rdgpu_carrier_xpc_contract.h",
+      "destination": "integration/rdmetal/transport/rdgpu_carrier_xpc_contract.h",
+      "bytes": 3257,
+      "sha256": "70991bcddb12e0f548a65c04e10ca267540009198d387bb4e9596185f807b7cf"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-relay-next/test_dmabuf.c",
+      "destination": "integration/rdmetal/relay/test_dmabuf.c",
+      "bytes": 5127,
+      "sha256": "60a491ae0f6b43b07781cc2883cb5432c172030690d9d267dc2b3f2f376d54ca"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/compiler-worker-next/dmabuf-fd-next/test_carrier.c",
+      "destination": "integration/rdmetal/carrier/test_carrier.c",
+      "bytes": 5409,
+      "sha256": "4ea50041db7107b10d506cbf45f7423815b327be332a41b59b9091e80abeade8"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/dmabuf-import-next/test_guest_transport.cpp",
+      "destination": "integration/rdmetal/transport/test_guest_transport.cpp",
+      "bytes": 1461,
+      "sha256": "dd915607bb70222085bf50ae748f75f3fc1a8bc5f40dd7c79d575377ae72c019"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/broker_server.m",
+      "destination": "integration/rdmetal/broker/broker_server.m",
+      "bytes": 8507,
+      "sha256": "6841e55014d4e493b1e3a027d195f5bff3629672f8eee6dfb24eec37a5997d71",
+      "source_sha256": "a3ab5db6d000c9669d40679dc65bc8a8aaf00ae3192799b97748768f32fc5423",
+      "normalization": "rewrote flattened include paths: src/rdgpu_*.h and ../../mesa-metal-driver-candidate/... -> local rdgpu_*.h"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_socket_wire.h",
+      "destination": "integration/rdmetal/broker/rdgpu_socket_wire.h",
+      "bytes": 632,
+      "sha256": "effee490bb4c43942a40fa159e41e6cb15710ee467e186593be54abccc71cd7e"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_virtual_carrier.c",
+      "destination": "integration/rdmetal/broker/rdgpu_virtual_carrier.c",
+      "bytes": 4568,
+      "sha256": "80f0c289d24293e153b223ccc00076eb96f4495a0fb8cacabae92204e7d45dee"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_virtual_carrier.h",
+      "destination": "integration/rdmetal/broker/rdgpu_virtual_carrier.h",
+      "bytes": 1874,
+      "sha256": "b9bdac78dcfa6a62194787389f6e291b286da0d367c6dd64a5adb82dde4496df"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_mock_gate.c",
+      "destination": "integration/rdmetal/broker/rdgpu_mock_gate.c",
+      "bytes": 18401,
+      "sha256": "ba950bdf0160681f15f95bb5ba40efe7c62716f37736ee958d49ea5142093060",
+      "source_sha256": "d7e312286dcb97130bca25494cc53a42c75532771655e519e7931067ce51d21f",
+      "normalization": "rewrote flattened include paths: ../../../mesa-metal-driver-candidate/... and ../../../broker-draw-next/... -> local rdgpu_*.h"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_mock_gate.h",
+      "destination": "integration/rdmetal/broker/rdgpu_mock_gate.h",
+      "bytes": 196,
+      "sha256": "0286621194d5839eee37bbf8fff6031930442241f742cc5256200a36583d593a"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/mesa-metal-driver-candidate/host-broker-candidate/rdgpu_broker.m",
+      "destination": "integration/rdmetal/broker/rdgpu_broker.m",
+      "bytes": 8661,
+      "sha256": "ae1174c9b78ba2b966025187681efb7531caf0c491002c8e73c98ada8a049226"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/mesa-metal-driver-candidate/host-broker-candidate/rdgpu_broker.h",
+      "destination": "integration/rdmetal/broker/rdgpu_broker.h",
+      "bytes": 2228,
+      "sha256": "fe1000e1ac4d55e4b678e4710a0271f59a4456af413b8f0c0bd0e600d939660f",
+      "source_sha256": "5d5089c8e84f659717014f5a3eb9850053a297859b22e71f563a1af2425d429a",
+      "normalization": "rewrote flattened include path: ../host-resource-core/rdmetal_resource.h -> rdmetal_resource.h"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/mesa-metal-driver-candidate/host-resource-core/rdmetal_resource.m",
+      "destination": "integration/rdmetal/broker/rdmetal_resource.m",
+      "bytes": 4434,
+      "sha256": "5cd8dc6d40856aebc656bff689cad3df846e05b2eb6ca63e8c888edb5db4ce9d"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/mesa-metal-driver-candidate/host-resource-core/rdmetal_resource.h",
+      "destination": "integration/rdmetal/broker/rdmetal_resource.h",
+      "bytes": 814,
+      "sha256": "902bb1c662188d179cdb356324fb929c88961c8c783da8d054f4429b3cfca38b"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/run.py",
+      "destination": "integration/rdmetal/broker/run_fixture.py",
+      "bytes": 4466,
+      "sha256": "d1ad300165f00208a7037f0cbae819ad016b90668d45268c90481556551a308a"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/broker-draw-next/rdgpu_draw_host.h",
+      "destination": "integration/rdmetal/broker/rdgpu_draw_host.h",
+      "bytes": 724,
+      "sha256": "c1aa361474dacc2828b7aadb8cc3045ae9efe37f47ff4296d0ed7dddb779de4c"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_guest_syscall.h",
+      "destination": "integration/rdmetal/broker/rdgpu_guest_syscall.h",
+      "bytes": 4836,
+      "sha256": "bfc64e3e09df58dc58b207f2ae0dcbf3a349374675fa9de329a14af336a56f57"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_wire.h",
+      "destination": "integration/rdmetal/broker/rdgpu_wire.h",
+      "bytes": 2660,
+      "sha256": "2b4ae53b6fd072ed7356fc8a6282db6740d1099e44eb4546e0c14e2934e04075"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_fd_issue_wire.h",
+      "destination": "integration/rdmetal/broker/rdgpu_fd_issue_wire.h",
+      "bytes": 593,
+      "sha256": "1fdbe25220854d26b0fb4401911a762f04560daf204ea95af68af8e75f8cc40e"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_draw_batch_wire.h",
+      "destination": "integration/rdmetal/broker/rdgpu_draw_batch_wire.h",
+      "bytes": 561,
+      "sha256": "c0abb502043c26f628ebaf6f5f243a6cfa8222815e4cd00c4ec16d7686c1d3f3"
+    },
+    {
+      "source": "hyprland-stage/metal-wayland-next/integrated-mesa-next/socket-broker-fixture/src/rdgpu_export_token.h",
+      "destination": "integration/rdmetal/broker/rdgpu_export_token.h",
+      "bytes": 473,
+      "sha256": "da365f7d3307caba5125d393394923b919f1e0bcdba3e2f7b531ed0fa8936b97"
+    }
+  ]
+}
